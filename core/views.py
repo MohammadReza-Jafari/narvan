@@ -1,3 +1,37 @@
-from django.shortcuts import render
+from rest_framework import status
+from rest_framework.decorators import APIView
+from rest_framework.response import Response
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
 
-# Create your views here.
+from core import serializers, calculator
+
+
+class FibonacciView(APIView):
+    inputs_param = openapi.Parameter(
+        'n', openapi.IN_BODY,
+        'Fibonacci sequence input', required=True, type=openapi.TYPE_INTEGER
+    )
+
+    @swagger_auto_schema(
+        request_body=serializers.FibonacciSerializer,
+        operation_description='calculate Fibonacci sequence',
+        responses={
+            status.HTTP_200_OK: 'you will get the response',
+            status.HTTP_400_BAD_REQUEST: 'bad input or pass the limit'
+        }
+    )
+    def post(self, request):
+        ser = serializers.FibonacciSerializer(data=request.data)
+
+        if ser.is_valid():
+            inputs = ser.validated_data.get('n', None)
+            result = calculator.fibonacci(n=inputs)
+            response = {
+                'success': True,
+                'status': status.HTTP_200_OK,
+                'input': inputs,
+                'result': result,
+            }
+            return Response(response, status=status.HTTP_200_OK)
+        return Response(ser.errors, status=status.HTTP_400_BAD_REQUEST)

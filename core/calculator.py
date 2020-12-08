@@ -37,7 +37,7 @@ def timeit(func, currently_evaluating=None):
             for item in kwargs:
                 res += f'{item}={kwargs[item]} ,'
 
-            time_spent = Decimal((end_time-start_time)) * 1000
+            time_spent = Decimal(round((end_time-start_time), 4)) * 1000
             file.write(f"Date: {datetime.now()} => {func.__name__} took"
                        f" {time_spent} ms with input(s): {res} \n")
             file.close()
@@ -51,7 +51,8 @@ def timeit(func, currently_evaluating=None):
             return value
     return wrapper
 
-@timeit()
+
+@timeit
 def fibonacci(n=0):
     if n == 0:
         return 0
