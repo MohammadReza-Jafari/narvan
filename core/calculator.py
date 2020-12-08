@@ -1,8 +1,10 @@
 import os
+from decimal import Decimal
 import time
 from datetime import datetime
 
 from django.conf import settings
+from core.models import Report
 
 
 def timeit(func, currently_evaluating=None):
@@ -34,9 +36,18 @@ def timeit(func, currently_evaluating=None):
             res = ''
             for item in kwargs:
                 res += f'{item}={kwargs[item]} ,'
+
+            time_spent = Decimal((end_time-start_time)) * 1000
             file.write(f"Date: {datetime.now()} => {func.__name__} took"
-                       f" {float((end_time-start_time))* 1000} ms with input(s): {res} \n")
+                       f" {time_spent} ms with input(s): {res} \n")
             file.close()
+
+            report = Report(
+                func_name=func.__name__,
+                time_spent=time_spent,
+                inputs=res
+            )
+            report.save()
             return value
     return wrapper
 
