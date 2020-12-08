@@ -37,7 +37,6 @@ def timeit(func, currently_evaluating=None):
             file.write(f"Date: {datetime.now()} => {func.__name__} took"
                        f" {float((end_time-start_time))* 1000} ms with input(s): {res} \n")
             file.close()
-
             return value
     return wrapper
 
