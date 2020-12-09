@@ -6,3 +6,23 @@ Date: 2020-12-09 11:43:41.863558 => fibonacci took 0 ms with input(s): n=7 , and
 Date: 2020-12-09 11:43:41.875558 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
 Date: 2020-12-09 11:44:36.436680 => factorial took 0 ms with input(s): n=7 , and result =5040 
 Date: 2020-12-09 11:44:36.448646 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 16:51:32.880534 => ackermann took 0 ms with input(s): m=4 ,n=1 , and result =65533 
+Date: 2020-12-09 16:52:46.402437 => ackermann took 0 ms with input(s): m=3 ,n=100 , and result =10141204801825835211973625643005 
+Date: 2020-12-09 16:53:21.496210 => ackermann took 0 ms with input(s): m=3 ,n=90 , and result =9903520314283042199192993789 
+Date: 2020-12-09 16:53:48.133761 => ackermann took 0 ms with input(s): m=3 ,n=80 , and result =9671406556917033397649405 
+Date: 2020-12-09 16:54:02.426185 => ackermann took 0 ms with input(s): m=3 ,n=70 , and result =9444732965739290427389 
+Date: 2020-12-09 16:54:11.290643 => ackermann took 0 ms with input(s): m=3 ,n=50 , and result =9007199254740989 
+Date: 2020-12-09 16:54:17.313497 => ackermann took 0 ms with input(s): m=3 ,n=60 , and result =9223372036854775805 
+Date: 2020-12-09 16:54:22.287816 => ackermann took 0 ms with input(s): m=3 ,n=65 , and result =295147905179352825853 
+Date: 2020-12-09 16:54:26.228539 => ackermann took 0 ms with input(s): m=3 ,n=63 , and result =73786976294838206461 
+Date: 2020-12-09 16:54:30.621775 => ackermann took 0 ms with input(s): m=3 ,n=62 , and result =36893488147419103229 
+Date: 2020-12-09 16:54:37.126870 => ackermann took 0 ms with input(s): m=3 ,n=61 , and result =18446744073709551613 
+Date: 2020-12-09 16:54:41.896609 => ackermann took 0 ms with input(s): m=3 ,n=60 , and result =9223372036854775805 
+Date: 2020-12-09 16:56:26.599700 => ackermann took 0 ms with input(s): m=2 ,n=60 , and result =123 
+Date: 2020-12-09 16:56:51.656959 => ackermann took 0 ms with input(s): m=4 ,n=0 , and result =13 
+Date: 2020-12-09 16:57:47.420932 => fibonacci took 9177.400000000000446220838057 ms with input(s): n=35 , and result =9227465 
+Date: 2020-12-09 17:12:46.205988 => ackermann took 0 ms with input(s): m=0 ,n=230 , and result =231 
+Date: 2020-12-09 17:12:52.130489 => ackermann took 0 ms with input(s): m=1 ,n=230 , and result =232 
+Date: 2020-12-09 17:12:58.194982 => ackermann took 0 ms with input(s): m=2 ,n=230 , and result =463 
+Date: 2020-12-09 17:13:22.615908 => ackermann took 0 ms with input(s): m=3 ,n=60 , and result =9223372036854775805 
+Date: 2020-12-09 17:39:26.296124 => ackermann took 0 ms with input(s): m=2 ,n=100000 , and result =200003 

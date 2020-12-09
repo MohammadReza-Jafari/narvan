@@ -11,6 +11,7 @@ class TestReportModelTest(TestCase):
             created_time=datetime.now(),
             func_name='fibo',
             inputs='n=5',
+            result=23,
             time_spent=15.67
         )
 
