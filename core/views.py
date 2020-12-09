@@ -39,7 +39,7 @@ class FactorialView(APIView):
 
     @swagger_auto_schema(
         request_body=serializers.FactorialSerializer,
-        operation_description='calculate Factorial of Integer value ( 0 <= n <= 170 )',
+        operation_description='calculate Factorial of Integer value ( 0 <= n <= 20 )',
         responses={
             status.HTTP_200_OK: 'you will get the response',
             status.HTTP_400_BAD_REQUEST: 'bad input or pass the limit'
