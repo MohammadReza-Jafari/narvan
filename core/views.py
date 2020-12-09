@@ -37,11 +37,6 @@ class FibonacciView(APIView):
 class FactorialView(APIView):
     """factorial view in api/calculate/factorial"""
 
-    inputs_param = openapi.Parameter(
-        'n', openapi.IN_BODY,
-        'Factorial input', required=True, type=openapi.TYPE_INTEGER
-    )
-
     @swagger_auto_schema(
         request_body=serializers.FactorialSerializer,
         operation_description='calculate Factorial of Integer value ( 0 <= n <= 170 )',
