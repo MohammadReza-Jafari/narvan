@@ -93,4 +93,8 @@ and make post requests with specified value:
 #### Mohammad Reza Jafari
 
 ## License
+<<<<<<< HEAD
 [MIT](https://choosealicense.com/licenses/mit/)
+=======
+[MIT](https://choosealicense.com/licenses/mit/)
+>>>>>>> 97d62216b6677ce8a7db83e8af8e989e03b51e53
