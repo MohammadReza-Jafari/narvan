@@ -70,3 +70,19 @@ def factorial(n=0):
     if n == 0 or n == 1:
         return 1
     return n * factorial(n-1)
+
+
+@timeit
+def ackermann(m=0, n=0):
+    if m == 0:
+        return n+1
+    if m == 1:
+        return n+2
+    if m == 2:
+        return 2*n + 3
+    if m == 3:
+        return pow(2, n+3) - 3
+    if m == 4 and n == 0:
+        return 13
+    if m == 4 and n == 1:
+        return 65533
