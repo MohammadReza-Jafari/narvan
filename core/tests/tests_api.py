@@ -19,6 +19,15 @@ class FibonacciApiTest(TestCase):
         self.assertEqual(res.status_code, 400)
         self.assertEqual(res.data['n'][0], "This field is required.")
 
+    def test_non_integer_value(self):
+        payload = {
+            'n': 23.45
+        }
+        res = self.api_client.post(FIBONACCI_URL, data=payload)
+
+        self.assertEqual(res.status_code, 400)
+        self.assertEqual(res.data['n'][0], "A valid integer is required.")
+
     def test_pass_the_limit(self):
         payload = {
             'n': 50
@@ -35,7 +44,7 @@ class FibonacciApiTest(TestCase):
         res = self.api_client.post(FIBONACCI_URL, data=payload)
 
         self.assertEqual(res.status_code, 400)
-        self.assertEqual(res.data['n'][0], 'you should enter positive numbers.')
+        self.assertEqual(res.data['n'][0], 'you should enter non-negative numbers.')
 
     def test_success(self):
         payload = {
