@@ -2,9 +2,11 @@ from rest_framework import serializers
 
 
 class FibonacciSerializer(serializers.Serializer):
+    """serializer for fibonacci function"""
     n = serializers.IntegerField(required=True)
 
     def validate_n(self, value):
+        """validating n"""
         if value > 35:
             raise serializers.ValidationError(
                 'you should provide number less than 35',
@@ -20,9 +22,11 @@ class FibonacciSerializer(serializers.Serializer):
 
 
 class FactorialSerializer(serializers.Serializer):
+    """serializer for factorial function"""
     n = serializers.IntegerField(required=True)
 
     def validate_n(self, value):
+        """validating n"""
         if value > 170:
             raise serializers.ValidationError(
                 'you should provide number less than 170',
@@ -38,13 +42,15 @@ class FactorialSerializer(serializers.Serializer):
 
 
 class AckermannSerializer(serializers.Serializer):
+    """serializer for ackermann function"""
     m = serializers.IntegerField(required=True)
     n = serializers.IntegerField(required=True)
 
     def validate_m(self, value):
+        """validating m"""
         if value > 4:
             raise serializers.ValidationError(
-                'you should provide value for m less than 4 ',
+                'you should provide value for m less than 4',
                 code='pass_limit'
             )
         if value < 0:
@@ -56,6 +62,7 @@ class AckermannSerializer(serializers.Serializer):
         return value
 
     def validate_n(self, value):
+        """validating n"""
         if value > 100000:
             raise serializers.ValidationError(
                 'you should provide value for n less than 100000',
@@ -70,6 +77,7 @@ class AckermannSerializer(serializers.Serializer):
         return value
 
     def validate(self, attrs):
+        """validating m,n together"""
         m = attrs.get('m', None)
         n = attrs.get('n', None)
 

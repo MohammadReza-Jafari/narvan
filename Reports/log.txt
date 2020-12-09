@@ -26,3 +26,81 @@ Date: 2020-12-09 17:12:52.130489 => ackermann took 0 ms with input(s): m=1 ,n=23
 Date: 2020-12-09 17:12:58.194982 => ackermann took 0 ms with input(s): m=2 ,n=230 , and result =463 
 Date: 2020-12-09 17:13:22.615908 => ackermann took 0 ms with input(s): m=3 ,n=60 , and result =9223372036854775805 
 Date: 2020-12-09 17:39:26.296124 => ackermann took 0 ms with input(s): m=2 ,n=100000 , and result =200003 
+Date: 2020-12-09 17:52:08.707924 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:52:08.719891 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:52:08.730891 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 17:52:30.379357 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:52:30.393318 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:52:30.405348 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 17:55:04.814361 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:55:04.826318 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:55:04.837319 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 17:55:42.820350 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:55:42.832349 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:55:42.843349 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 17:56:29.668234 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:56:29.683188 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 17:56:29.697228 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:01:51.258144 => ackermann took 0 ms with input(s): m=2 ,n=250 , and result =503 
+Date: 2020-12-09 18:01:51.263144 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:01:51.281151 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:01:51.300148 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:02:13.783807 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:02:13.796804 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:02:13.807805 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:02:41.226005 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:02:41.239016 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:02:41.251007 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:03:30.193030 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:03:30.205029 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:03:30.216041 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:03:51.974139 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:03:51.986140 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:03:51.997139 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:05:16.500886 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:05:16.513885 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:05:16.528883 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:05:30.640067 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:05:30.651066 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:05:30.663027 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:06:22.156547 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:06:22.169547 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:06:22.182562 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:07:07.565901 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:07:07.577900 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:07:07.588939 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:07:49.200119 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:07:49.213146 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:07:49.226145 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:08:31.042796 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:08:31.058795 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:08:44.581867 => ackermann took 0 ms with input(s): m=2 ,n=200 , and result =403 
+Date: 2020-12-09 18:08:44.596866 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:08:44.614866 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:09:15.612542 => ackermann took 0 ms with input(s): m=2 ,n=200 , and result =403 
+Date: 2020-12-09 18:09:15.615568 => ackermann took 0 ms with input(s): m=1 ,n=200 , and result =202 
+Date: 2020-12-09 18:09:15.626579 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:09:15.638544 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:09:55.938659 => ackermann took 0 ms with input(s): m=2 ,n=200 , and result =403 
+Date: 2020-12-09 18:09:55.942619 => ackermann took 0 ms with input(s): m=1 ,n=200 , and result =202 
+Date: 2020-12-09 18:09:55.945654 => ackermann took 0 ms with input(s): m=0 ,n=200 , and result =201 
+Date: 2020-12-09 18:09:55.956657 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:09:55.970656 => fibonacci took 0 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:10:36.733277 => ackermann took 0 ms with input(s): m=2 ,n=200 , and result =403 
+Date: 2020-12-09 18:10:36.736262 => ackermann took 0 ms with input(s): m=1 ,n=200 , and result =202 
+Date: 2020-12-09 18:10:36.739263 => ackermann took 0 ms with input(s): m=0 ,n=200 , and result =201 
+Date: 2020-12-09 18:10:36.743263 => ackermann took 0 ms with input(s): m=4 ,n=1 , and result =65533 
+Date: 2020-12-09 18:10:36.754268 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:10:36.766278 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:11:56.020172 => ackermann took 0 ms with input(s): m=2 ,n=200 , and result =403 
+Date: 2020-12-09 18:11:56.023172 => ackermann took 0 ms with input(s): m=1 ,n=200 , and result =202 
+Date: 2020-12-09 18:11:56.026172 => ackermann took 0 ms with input(s): m=0 ,n=200 , and result =201 
+Date: 2020-12-09 18:11:56.029172 => ackermann took 0 ms with input(s): m=4 ,n=1 , and result =65533 
+Date: 2020-12-09 18:11:56.041172 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:11:56.052172 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 18:15:59.899930 => ackermann took 0 ms with input(s): m=2 ,n=200 , and result =403 
+Date: 2020-12-09 18:15:59.902957 => ackermann took 0 ms with input(s): m=1 ,n=200 , and result =202 
+Date: 2020-12-09 18:15:59.905929 => ackermann took 0 ms with input(s): m=0 ,n=200 , and result =201 
+Date: 2020-12-09 18:15:59.908929 => ackermann took 0 ms with input(s): m=4 ,n=1 , and result =65533 
+Date: 2020-12-09 18:15:59.920928 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 18:15:59.933927 => fibonacci took 0 ms with input(s): n=14 , and result =377 

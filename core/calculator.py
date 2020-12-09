@@ -45,6 +45,7 @@ def timeit(func, currently_evaluating=None):
                        f" {time_spent} ms with input(s): {res} and result ={value} \n")
             file.close()
 
+            # save the result in Database
             report = Report(
                 func_name=func.__name__,
                 time_spent=time_spent,
@@ -58,6 +59,7 @@ def timeit(func, currently_evaluating=None):
 
 @timeit
 def fibonacci(n=0):
+    """calculate fibonacci number"""
     if n == 0:
         return 0
     if n == 1:
@@ -67,6 +69,7 @@ def fibonacci(n=0):
 
 @timeit
 def factorial(n=0):
+    """calculate factorial of n"""
     if n == 0 or n == 1:
         return 1
     return n * factorial(n-1)
@@ -74,6 +77,7 @@ def factorial(n=0):
 
 @timeit
 def ackermann(m=0, n=0):
+    """calculate ackermann function result"""
     if m == 0:
         return n+1
     if m == 1:
