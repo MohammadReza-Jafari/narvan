@@ -2,3 +2,7 @@ Date: 2020-12-09 11:17:53.871480 => factorial took 0 ms with input(s): n=7 , and
 Date: 2020-12-09 11:18:56.894159 => fibonacci took 8.000000000000000166533453694 ms with input(s): n=20 , and result =6765 
 Date: 2020-12-09 11:24:49.160373 => fibonacci took 0.8999999999999999753669266411 ms with input(s): n=14 , and result =377 
 Date: 2020-12-09 11:25:34.946377 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 11:43:41.863558 => fibonacci took 0 ms with input(s): n=7 , and result =13 
+Date: 2020-12-09 11:43:41.875558 => fibonacci took 1.000000000000000020816681712 ms with input(s): n=14 , and result =377 
+Date: 2020-12-09 11:44:36.436680 => factorial took 0 ms with input(s): n=7 , and result =5040 
+Date: 2020-12-09 11:44:36.448646 => fibonacci took 0 ms with input(s): n=14 , and result =377 
