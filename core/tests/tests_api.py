@@ -89,7 +89,7 @@ class FactorialApiTest(TestCase):
         res = self.api_client.post(FACTORIAL_URL, data=payload)
 
         self.assertEqual(res.status_code, 400)
-        self.assertEqual(res.data['n'][0], 'you should provide number less than 170')
+        self.assertEqual(res.data['n'][0], 'you should provide number less than 20')
 
     def test_negative_input(self):
         payload = {

@@ -27,9 +27,9 @@ class FactorialSerializer(serializers.Serializer):
 
     def validate_n(self, value):
         """validating n"""
-        if value > 170:
+        if value > 20:
             raise serializers.ValidationError(
-                'you should provide number less than 170',
+                'you should provide number less than 20',
                 code='pass_limit'
             )
         if value < 0:
