@@ -1,3 +1,48 @@
 from django.test import TestCase
+from django.urls import reverse
+from rest_framework.test import APIClient
 
-# Create your tests here.
+FIBONACCI_URL = reverse('calculator:fibonacci')
+
+
+class FibonacciApiTest(TestCase):
+
+    # testing fibonacci functionality
+
+    def setUp(self):
+        self.api_client = APIClient()
+
+    def test_no_input_provided(self):
+        payload = {}
+        res = self.api_client.post(FIBONACCI_URL, data=payload)
+
+        self.assertEqual(res.status_code, 400)
+        self.assertEqual(res.data['n'][0], "This field is required.")
+
+    def test_pass_the_limit(self):
+        payload = {
+            'n': 50
+        }
+        res = self.api_client.post(FIBONACCI_URL, data=payload)
+
+        self.assertEqual(res.status_code, 400)
+        self.assertEqual(res.data['n'][0], 'you should provide number less than 35')
+
+    def test_negative_input(self):
+        payload = {
+            'n': -23
+        }
+        res = self.api_client.post(FIBONACCI_URL, data=payload)
+
+        self.assertEqual(res.status_code, 400)
+        self.assertEqual(res.data['n'][0], 'you should enter positive numbers.')
+
+    def test_success(self):
+        payload = {
+            'n': 14
+        }
+        res = self.api_client.post(FIBONACCI_URL, data=payload)
+
+        self.assertEqual(res.status_code, 200)
+        self.assertEqual(res.data['success'], True)
+        self.assertEqual(res.data['result'], 377)
