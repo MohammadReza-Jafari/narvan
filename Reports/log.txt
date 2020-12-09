@@ -1,16 +1,2 @@
-Date: 2020-12-09 01:50:42.433455 => fibonacci took 6.9983005523681640625000 ms with input(s): n=20 , 
-Date: 2020-12-09 01:52:47.582841 => fibonacci took 909.996509552001953125000 ms with input(s): n=30 , 
-Date: 2020-12-09 02:01:28.066462 => fibonacci took 79.0369510650634765625000 ms with input(s): n=25 , 
-Date: 2020-12-09 02:17:28.090295 => fibonacci took 297.028064727783203125000 ms with input(s): n=28 , 
-Date: 2020-12-09 02:18:27.497851 => fibonacci took 24228.03974151611328125000 ms with input(s): n=37 , 
-Date: 2020-12-09 02:19:46.479101 => fibonacci took 9590.0070667266845703125000 ms with input(s): n=35 , 
-Date: 2020-12-09 02:20:20.347332 => fibonacci took 15642.0001983642578125000 ms with input(s): n=36 , 
-Date: 2020-12-09 02:22:51.951186 => fibonacci took 0 ms with input(s): n=0 , 
-Date: 2020-12-09 02:22:59.660209 => fibonacci took 0 ms with input(s): n=1 , 
-Date: 2020-12-09 02:26:04.356305 => fibonacci took 14691.30000000000002557953849 ms with input(s): n=36 , 
-Date: 2020-12-09 02:26:42.169421 => fibonacci took 9003.000000000000113686837722 ms with input(s): n=35 , 
-Date: 2020-12-09 02:27:38.388179 => fibonacci took 3580.999999999999960920149533 ms with input(s): n=33 , 
-Date: 2020-12-09 10:38:28.005780 => fibonacci took 24.00000000000000049960036108 ms with input(s): n=23 , 
-Date: 2020-12-09 10:39:10.191240 => fibonacci took 25.00000000000000138777878078 ms with input(s): n=23 , 
-Date: 2020-12-09 10:40:32.105971 => fibonacci took 0 ms with input(s): n=14 , 
-Date: 2020-12-09 10:48:14.750631 => fibonacci took 0 ms with input(s): n=14 , 
+Date: 2020-12-09 11:17:53.871480 => factorial took 0 ms with input(s): n=7 , and result =5040
+Date: 2020-12-09 11:18:56.894159 => fibonacci took 8.000000000000000166533453694 ms with input(s): n=20 , and result =6765 

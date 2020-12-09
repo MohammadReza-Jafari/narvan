@@ -42,13 +42,14 @@ def timeit(func, currently_evaluating=None):
 
             time_spent = Decimal(round((end_time-start_time), 4)) * 1000
             file.write(f"Date: {datetime.now()} => {func.__name__} took"
-                       f" {time_spent} ms with input(s): {res} \n")
+                       f" {time_spent} ms with input(s): {res} and result ={value} \n")
             file.close()
 
             report = Report(
                 func_name=func.__name__,
                 time_spent=time_spent,
-                inputs=res
+                inputs=res,
+                result=value
             )
             report.save()
             return value
@@ -64,3 +65,8 @@ def fibonacci(n=0):
     return fibonacci(n-1) + fibonacci(n-2)
 
 
+@timeit
+def factorial(n=0):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n-1)

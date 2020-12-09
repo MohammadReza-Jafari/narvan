@@ -6,7 +6,8 @@ app_name = 'calculator'
 urlpatterns = [
     path('calculate/', include(
         [
-            path('fibonacci/', views.FibonacciView.as_view(), name='fibonacci')
+            path('fibonacci/', views.FibonacciView.as_view(), name='fibonacci'),
+            path('factorial/', views.FactorialView.as_view(), name='factorial')
         ]
     ))
 ]
