@@ -30,7 +30,10 @@ def timeit(func, currently_evaluating=None):
             # save time of run in BASE_DIR/Reports/log.txt
             path = os.path.join(settings.BASE_DIR, 'Reports\\log.txt')
             if not os.path.exists(path):
-                os.makedirs(os.path.join(settings.BASE_DIR, 'Reports'))
+                try:
+                    os.makedirs(os.path.join(settings.BASE_DIR, 'Reports'))
+                except OSError:
+                    pass
             file = open(path, mode='a')
 
             res = ''
