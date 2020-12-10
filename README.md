@@ -81,11 +81,11 @@ and make post requests with specified value:
 * [Ackermann](http://127.0.0.1:8000/api/calculate/ackermann)
    * method=post reques-body ={“m”: An Integer value, “n”: An Integer value}
 
-
-##### for system monitoring you can just open log.txt in Reports directory inside project root and see details of every successful request <br />
+## Monitoring
+1. ##### for system monitoring you can just open log.txt in Reports directory inside project root and see details of every successful request <br />
 ![log.txt](https://github.com/MohammadReza-Jafari//pysru_bot/blob/master/3.png?raw=true) <br />
 
-##### or by the created user in previous steps enter admin site of django and see the reports table there. <br/>
+2. ##### or by the created user in previous steps enter admin site of django and see the reports table there. <br/>
 ![log.txt](https://github.com/MohammadReza-Jafari//pysru_bot/blob/master/2.png?raw=true) <br />
 
 
