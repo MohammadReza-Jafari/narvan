@@ -3,8 +3,14 @@
 This web service is provided to calculate Ackermann function,The nth sentence of the Fibonacci sequence and Factorial function.
 Git Flow Feature branch is used to manage Git and Travis-ci is used for the continuous integration of the project.
 The Travis-ci is connected to Git's Ropositories and after every push,project starts to run on travis-ci's own servers according to configurations in .travis.yml 
-and all its unit tests are checked automatically.
-also,Git work flow is used to manage branches.
+and all its unit tests are checked automatically that you can some oof project build in image below: <br> <br>
+![travisi-ci](https://github.com/MohammadReza-Jafari//pysru_bot/blob/master/4.png?raw=true) <br> <br>
+also,Git work flow is used to manage branches.<br>
+three part of our branch is :
+   1. main
+   2. develop
+   3. features
+
 
 ## Installation
 
@@ -69,8 +75,8 @@ python manage.py runserver
 
 on [narvan api doc](http://127.0.0.1:8000/api/doc/) you can visit api documentation and see how to use every services.
 to test this api you can see [narvan api doc](http://127.0.0.1:8000/api/doc/) that created by swagger and test services or go to any of following urls
-and make post requests with specified value:
-
+and make post requests with specified value and for making documentation i used swagger that tou can see below: <br><br>
+![api doc](https://github.com/MohammadReza-Jafari//pysru_bot/blob/master/1.png?raw=true) <br>
 * [Fibonacci](http://127.0.0.1:8000/api/calculate/fibonacci)
    * method=post | reques-body = { “n”: An Integer value}
 
@@ -86,7 +92,7 @@ and make post requests with specified value:
 ![log.txt](https://github.com/MohammadReza-Jafari//pysru_bot/blob/master/3.png?raw=true) <br />
 
 2. ##### or by the created user in previous steps enter admin site of django and see the reports table there. <br/>
-![log.txt](https://github.com/MohammadReza-Jafari//pysru_bot/blob/master/2.png?raw=true) <br />
+![admin site](https://github.com/MohammadReza-Jafari//pysru_bot/blob/master/2.png?raw=true) <br />
 
 
 ## Author
